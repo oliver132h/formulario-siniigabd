@@ -1,0 +1,57 @@
+
+body{
+	
+	background-image:url("http://www.lja.mx/wp-content/uploads/2016/01/ganado-cc.jpg");
+} /* en este apartado del body se puso la imagen de fondo del index */
+  
+h1{
+	
+font-weight: bold;
+text-decoration: none;
+
+}  /* en este apartado del h1 se esta haciendo referencia al grosor de la letra y la decoracion */
+
+
+header h1,nav{  
+
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;
+    border: 0.8em;
+	
+}  /* en este apartado del h1 y el nav se establece la propiedad de control de la estructura con el display seguidamente
+						max-width que sirve para ver en un 100%  y una alineacion vertical con un borde de 0.8 */
+
+
+nav ul{
+	list-style: none;
+
+} /*se utilizan para establecer de forma abreviada el valor de una propiedades individual */
+
+
+
+nav li{
+	
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align: top;
+	border: 0.8em;
+	
+font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  color:	#9ACD32;
+   border: black;
+-webkit-text-fill-color:	#9ACD32;
+-webkit-text-stroke: 2px black;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+} /* en esta parte del codigo de establece de igual forma un control de la estructura junto con un borde del texto y la forma
+				vertical en la cual estara de igual forma se establecio el tipo de letra que tendra el contenido de lista que esta en el nav junto aun color que se le asigno por defecto */
+
+
+form{
+	background-color:white;
+	opacity:0.9;
+} /* dentro del form se  establece el color que tendra el formulario y seguidamente una transparencia */
+
+
